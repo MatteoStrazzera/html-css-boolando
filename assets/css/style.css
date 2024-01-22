@@ -12,9 +12,26 @@
     --boolando-dark: #1a1a1a;
 }
 .container{
-    background-color: var(--boolando-primary);
-    height: 100px;
-
+    max-width: 950px;
+    padding: 1rem 0;
+    margin: auto;
 }
-
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+.icons{
+    color: white;
+}
 /* #endregion Common */
+
+/* #region Header */
+
+.site-header{
+    background-color: var(--boolando-primary);
+}
