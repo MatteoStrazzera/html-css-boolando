@@ -94,6 +94,7 @@ a{
 
 /* #region Main */
 
+
 .product-description{
     list-style: none;
 }
@@ -110,3 +111,23 @@ a{
     left: 0;
 }
 /* #endregion Main */
+
+/* #region Footer */
+.site-footer{
+    background-color: var(--boolando-dark);
+}
+.company-info{
+    color: white;
+}
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    font-size: 0.75rem;
+    gap: 1rem;
+}
+.socials{
+    color: white;
+}
+/* #endregion Footer */
