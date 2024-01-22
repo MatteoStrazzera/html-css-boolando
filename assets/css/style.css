@@ -1,0 +1,20 @@
+/* #region Common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --boolando-primary: #ff6900;
+    --boolando-discount: #ff0000;
+    --boolando-sustainability: #008000;
+    --boolando-dark: #1a1a1a;
+}
+.container{
+    background-color: var(--boolando-primary);
+    height: 100px;
+
+}
+
+/* #endregion Common */
