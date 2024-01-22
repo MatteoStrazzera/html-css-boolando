@@ -18,6 +18,19 @@
 }
 .img-container{
     max-width: 300px;
+    position: relative;
+}
+.heart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    font-size: x-large;
 }
 .d-flex{
     display: flex;
