@@ -16,9 +16,15 @@
     padding: 1rem 0;
     margin: auto;
 }
+.heart:hover{
+    color: var(--boolando-discount);
+}
 .img-container{
     max-width: 300px;
     position: relative;
+}
+.image:hover .hover-img{
+    display: inline;
 }
 .heart{
     display: flex;
@@ -92,9 +98,15 @@ a{
     list-style: none;
 }
 .discount-price{
-    color: red;
+    color: var(--boolando-discount);
 }
 .old-price{
     text-decoration: line-through;
+}
+.hover-img{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 /* #endregion Main */
