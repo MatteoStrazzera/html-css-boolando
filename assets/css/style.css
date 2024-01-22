@@ -40,6 +40,22 @@
     bottom: 2rem;
     left: 0;
 }
+.sustain{
+    background-color: var(--boolando-sustainability);
+    color: white;
+    width: 5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+}
+.sustain2{
+    background-color: var(--boolando-sustainability);
+    color: white;
+    width: 5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+}
 .d-flex{
     display: flex;
     justify-content: space-between;
