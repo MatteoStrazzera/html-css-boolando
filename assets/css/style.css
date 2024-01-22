@@ -32,6 +32,14 @@
     right: 0;
     font-size: x-large;
 }
+.discount{
+    background-color: var(--boolando-discount);
+    color: white;
+    width: 2.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+}
 .d-flex{
     display: flex;
     justify-content: space-between;
