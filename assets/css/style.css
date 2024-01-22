@@ -89,11 +89,16 @@ a{
 
 .site-header{
     background-color: var(--boolando-primary);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 /* #endregion Header */
 
 /* #region Main */
-
+.site-main{
+    padding: 7rem 0 3rem 0;
+}
 
 .product-description{
     list-style: none;
