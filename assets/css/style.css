@@ -11,6 +11,9 @@
     --boolando-sustainability: #008000;
     --boolando-dark: #1a1a1a;
 }
+body {
+    font-family: 'Public Sans', sans-serif;
+}
 .container{
     max-width: 950px;
     padding: 1rem 0;
@@ -49,7 +52,7 @@
 .sustain{
     background-color: var(--boolando-sustainability);
     color: white;
-    width: 5rem;
+    width: 5.5rem;
     position: absolute;
     bottom: 6rem;
     left: 3rem;
@@ -57,7 +60,7 @@
 .sustain2{
     background-color: var(--boolando-sustainability);
     color: white;
-    width: 5rem;
+    width: 5.5rem;
     position: absolute;
     bottom: 6rem;
     left: 0;
